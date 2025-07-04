@@ -18,7 +18,16 @@ In versions 1.6.3 and above, there is also a config option for changing the cap 
 
 > End of original mod description.
 
-Please report issues you encounter with this library to its own repository, as any bugs may be caused due to a skill issue on my part in regard to porting. AlexModGuy has shown as far as I know no intent in making 1.21 bug fixes or forwardporting Citadel, so don't bother him with this port's issues.
+Please report issues you encounter with this library to its own repository, as any bugs may be caused due to a skill issue on my part in regard to porting. AlexModGuy has shown as far as I know no intent in making 1.21 bug fixes or completing a 1.21.1 port of Citadel, so don't bother him with this port's issues.  
+
+### Licensing  
+The original mod's license is under the LGPL 3.0 as per the [modrinth page](https://modrinth.com/mod/citadel), and as to best respect the license, this port will use the same license, this is given that the GNU LGPL 3.0 requires that derivative works and forks require to be under the same license.  
+
+You may, with this mod:  
+Create projects that implement it, given you provide attribution and any modifications you make to the library if you do.  
+Create modifications and redistributions under the same LGPL license and listing modifications to the best of your ability, with attributions.  
+Use this in your modpacks, show it off in content creation, use it for learning, etc.  
+Unsure about whether you can do something with the project? Open an issue to ask.
 
 ### Versioning
 
