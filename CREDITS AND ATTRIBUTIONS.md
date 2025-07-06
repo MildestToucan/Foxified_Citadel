@@ -7,12 +7,12 @@ This is where external libraries and tools' licenses and credits will be put, al
 
 If you feel like you ought to be on here, aren't credited properly, want to be removed from here, feel someone should not be on here, or have general complaints about the copyright and legal aspect of this project, open a GitHub issue or contact me at introvertpale@gmail.com
 
-### THIS PROJECT'S AUTHORS AND CONTRIBUTORS:
+### THIS PROJECT'S MAIN AUTHORS AND CONTRIBUTORS:
 
 [GauntRecluse](https://github.com/MildestToucan) - Primary Author of Foxified Citadel  
 [AlexThe668](https://github.com/AlexModGuy) - Primary Author of the original Citadel Library  
 [FITFC](https://github.com/FITFC) - Contributor of original Citadel Library  
-[Matt W.](https://github.com/MWall541) - Contributor of original Citadel Library  
+[Matt W.](https://github.com/MWall541) - Contributor of original Citadel Library
 
 ### [CITADEL LIBRARY MOD](https://github.com/AlexModGuy/Citadel/tree/master):
 
@@ -33,10 +33,15 @@ If you feel like you ought to be on here, aren't credited properly, want to be r
 ### SIMPLEXNOISE ALGORITHM:
 
 **By**: Stefan Gustavson (peastman@drizzle.stanford.edu) and Peter Eastman (stegu@itn.liu.se)
-**License**: Public Domain (according to original comment in the file copied over from Citadel)
+**License**: Public Domain (according to original comment in the file copied over from Citadel)  
+
+### PACKETBUFFERUTILS:
+**By**: [cpw](https://github.com/cpw)  
+No license found; file was found in the original Citadel mod; presumed to be free to use in this library.
 
 ## SPECIAL THANKS:
 
-My mom - Being an absolute Saint  
+My mom - Raising me with kindness and beating my depression's butt.  
 [KaupenJoe](https://www.youtube.com/@ModdingByKaupenjoe) - Giving some nice entry point to learning Java mod development for Minecraft  
 The NeoForged community ([Discord link](https://discord.com/invite/UvedJ9m)) - Giving a lot of support when I'm confused  
+[JetBrains](https://www.jetbrains.com/) - Providing the open source IDE IntelliJ IDEa Comm. Edition used for this project

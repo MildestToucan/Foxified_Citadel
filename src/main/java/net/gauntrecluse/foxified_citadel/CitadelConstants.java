@@ -14,13 +14,16 @@ public class CitadelConstants {
     private static boolean aprilFools = false;
 
     /**
-     * Added in FOX for debugging and configuration purposes.
+     * Added in FOX for debugging and configuration purposes. <br>
+     * Associated with a config option in {@link CommonConfig}
      */
     public static boolean isForcingAprilFools;
 
     /**
      * @return Whether April Fools content should display. If {@code isForcingAprilFools} is true, then calendar check is bypassed to return true. <br>
-     * Otherwise, returns true if both {@code isAprilFoolsEnabled} is enabled and calendar check shows it's April Fools.
+     * Otherwise, returns true if both {@code isAprilFoolsEnabled} is enabled and calendar check shows it's April Fools. <br>
+     * Due to the initDate check, it is not very resource intensive to call the method more than once, but if a mod uses this extensively,
+     * it may be worthwhile storing the result of this calendar calculation in a variable that is initialized during setup for optimization.
      */
     public static boolean getAprilFools(){
         if(!isForcingAprilFools) {
@@ -32,7 +35,7 @@ public class CitadelConstants {
             }
             return aprilFools && CommonConfig.isAprilFoolsEnabled;
         }
-        return true; //Returns true if configuration forces april fools content to be enabled.
+        return true;
     }
 
     public static boolean debugShaders(){

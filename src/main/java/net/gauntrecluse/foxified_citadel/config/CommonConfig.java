@@ -28,9 +28,8 @@ public class CommonConfig {
      * This is original to FOX.
      */
     public static ModConfigSpec.BooleanValue forceAprilFoolsContent;
-    //The associated boolean is in CitadelConstants.
+    //The associated boolean is in CitadelConstants rather than here.
 
-    //Build the config.
     static {
         ModConfigSpec.Builder COMMON_BUILDER = new ModConfigSpec.Builder();
 
